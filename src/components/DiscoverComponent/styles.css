@@ -39,3 +39,8 @@
   	line-height: normal;
   	letter-spacing: normal;
 }
+
+.carousel2{
+	display: flex;
+	flex-direction: row;
+}

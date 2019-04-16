@@ -1,0 +1,51 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.commentshead{
+	display: flex;
+	flex-direction: row;
+	/* background-image:  linear-gradient(312deg, #ffe2ff, #ebedff 47%, #f8faff); */
+}
+
+.oval{
+	width: 12px;
+  	height: 12px;
+	background-color: #ffcb51;
+	border-radius: 100%;
+	margin: 1em 1em;
+}
+
+.folks{
+	/* margin: 2em 2em; */
+	font-size: 18px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #ff6692;
+}
+
+.commentsection{
+	display: flex;
+	flex-direction: row;
+}
+
+.downloadswoo{
+	all: unset;
+	justify-content: space-between;
+	padding: 1em;
+	margin: 0 auto;
+	justify-self: center;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	box-shadow: 0 4px 12px 0 rgba(255, 102, 146, 0.4);
+	background-image: linear-gradient(to left, #fdb996, #ff6080);
+	border-radius: 32.1px;
+	width: 40%;
+ }
