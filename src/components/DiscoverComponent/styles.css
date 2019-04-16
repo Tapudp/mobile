@@ -1,0 +1,41 @@
+.discover{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-image: url('../../assets/group-24.svg');
+	background-size: cover;
+}
+
+.gamepad{
+	display: flex;
+	flex-direction: row;
+	width: 5%;
+	height: 4%;
+	justify-content: center;
+	align-items: center;
+	padding: 3% 3%;
+}
+
+.newgame{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 1.2;
+	letter-spacing: normal;
+	color: #ff6692;
+}
+
+.friends{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: #4a4a4a;
+	font-size: 12px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+}

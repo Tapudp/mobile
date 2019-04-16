@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="129" viewBox="0 0 360 129">
+    <defs>
+        <linearGradient id="b" x1="117.268%" x2="3.206%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#FDB996"/>
+            <stop offset="100%" stop-color="#FF6080"/>
+        </linearGradient>
+        <path id="a" d="M0 0c58.911 14.667 118.949 22 180.113 22S301.239 14.667 360 0v129H0V0z"/>
+        <filter id="c" width="101.9%" height="105.4%" x="-1%" y="-2.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="3"/>
+            <feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1 0 0 0 0 0.401870265 0 0 0 0 0.571793485 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="d" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="url(#b)" xlink:href="#a"/>
+        <use fill="#000" filter="url(#c)" xlink:href="#a"/>
+        <g mask="url(#d)">
+            <g stroke="#FFF" stroke-width="18" transform="translate(-97 -25)">
+                <circle cx="457" cy="97" r="43" opacity=".116"/>
+                <circle cx="97" cy="97" r="43" opacity=".116"/>
+                <circle cx="457" cy="97" r="70" opacity=".062"/>
+                <circle cx="97" cy="97" r="70" opacity=".062"/>
+                <circle cx="457" cy="97" r="97" opacity=".034"/>
+                <circle cx="97" cy="97" r="97" opacity=".034"/>
+            </g>
+        </g>
+    </g>
+</svg>

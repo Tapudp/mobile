@@ -1,0 +1,170 @@
+.firstscreencontainer {
+  display: flex;
+  flex-direction: column;
+}
+.purpleheader {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-color: #745eff;
+  justify-content: space-around;
+  padding: 10px 0px;
+}
+
+.downloadapp{
+  all: unset;
+  /* justify-content: space-between; */
+  text-align: center;
+  font-weight: bold;
+  color: #745eff;
+  background-color: #ffffff;
+  border-radius: 32.1px;
+  width: 20%;
+  box-sizing: padding-box;
+}
+
+.phonecontainer {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/group-14.svg");
+  background-size:cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.whitebackground {
+  width: 100%;
+  height: 80vh;
+}
+
+.swoologo {
+  width: 100%;
+  height: 3em;
+  justify-self: flex-start;
+  padding: 1em 0em;
+}
+
+.content {
+  font-size: 36px;
+  color: #ff6692;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.dream {
+  font-weight: 500;
+  line-break: auto;
+}
+
+.downloadswoo{
+  all: unset;
+  justify-content: space-between;
+  padding: 1em;
+  margin: 0 auto;
+  justify-self: center;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  box-shadow: 0 4px 12px 0 rgba(255, 102, 146, 0.4);
+  background-image: linear-gradient(to left, #fdb996, #ff6080);
+  border-radius: 32.1px;
+  width: 40%;
+}
+
+.watchdemo{
+  display: flex;
+  all: unset;
+  padding-left: 1em;
+  color: #ff6692;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-shadow: inset 0 1px 6px 0 #ff6692;
+  background-image: linear-gradient(to left, #fdb996, #ff6080);
+}
+
+.digits{
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+}
+
+.digits p{
+  color: #833030;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+.howtoplaycontainer{
+  background-color: #745eff;
+  color: #ffffff;
+}
+
+.howtoplaycontainer h2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 18px;
+}
+
+/* .star{
+  color: #ffcb51;
+  width: 16px;
+  height: 15px;
+} */
+
+.howto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.howtoitem1 {
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  width: 112px;
+  height: 60px;
+  background-image: url('../../assets/path.svg');
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.howtoitem2{
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  width: 112px;
+  height: 60px;
+  background-image: url('../../assets/path2.svg');
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.howtoitem3{
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  width: 105px;
+  height: 60px;
+  background-image: url('../../assets/path3.svg');
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+.firstfooter{
+  position: absolute;
+}
