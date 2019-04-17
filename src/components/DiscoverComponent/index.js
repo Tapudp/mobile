@@ -12,7 +12,7 @@ import {ReactComponent as FallingThrough} from '../../assets/Games/Fallingthroug
 import {ReactComponent as JuicyDash} from '../../assets/Games/Juicydash.svg';
 import {ReactComponent as MelonPinch} from '../../assets/Games/MelonPinch.svg';
 import {ReactComponent as PiratesPillage} from '../../assets/Games/Piratespillage.svg';
-import {ReactComponent as QuackHunt} from '../../assets/Games/QuackHunt.svg';
+import {ReactComponent as QuackHunt} from '../../assets/Games/Quackhunt.svg';
 import {ReactComponent as Rafting} from '../../assets/Games/Rafting.svg';
 import {ReactComponent as RocketMan} from '../../assets/Games/RocketMan.svg';
 import {ReactComponent as StickyGoo} from '../../assets/Games/StickyGoo.svg';

@@ -21,7 +21,7 @@ export default class BannerComponent extends Component{
         <div className="purpleheader">
           <Hamburger className="hamburger" />
           {/* <WhiteRectangle className="whiterectangle" /> */}
-          <a className="downloadapp" href="#" target="_blank">Download App</a>
+          <a className="downloadapp" href="https://s3.ap-southeast-1.amazonaws.com/swoo-app-releases/android/665/release/7.1.0_production_pro_release_build_app-pro-release.apk" target="_blank">Download App</a>
         </div>
         <div className="phonecontainer">
           {/* <WhiteBackground className="whitebackground" /> */}
@@ -30,7 +30,7 @@ export default class BannerComponent extends Component{
           <p className="dream">
             A world of skills where you achieve your dreams.
           </p>
-          <a className="downloadswoo" href="#">
+          <a className="downloadswoo" href="https://s3.ap-southeast-1.amazonaws.com/swoo-app-releases/android/665/release/7.1.0_production_pro_release_build_app-pro-release.apk">
             <Download/> Download Swoo
           </a>
           <br/>

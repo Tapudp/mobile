@@ -12,13 +12,15 @@
 	display: flex;
 	flex-direction: column;
 	font-size: 30px;
-	justify-content: left;
+  justify-content: flex-start;
+  align-items: flex-start;
 	font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.2;
   letter-spacing: normal;
   color: #ffffff;
+  margin: 0.5em 1em;
 }
 
 p{
@@ -29,7 +31,14 @@ p{
   line-height: normal;
   letter-spacing: normal;
   color: #ffffff;
+}
 
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1em 1em;
 }
 
 .button1{
@@ -74,6 +83,7 @@ p{
   letter-spacing: normal;
   text-align: end;
   color: #ff6692;
+  padding-top: 2em;
   margin: 5em 5em;
 }
 

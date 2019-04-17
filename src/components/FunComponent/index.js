@@ -13,17 +13,17 @@ export default class FunComponent extends Component{
 	render(){
 		return(
 			<div>
-				<div class="tictac">
+				<div className="tictac">
 					<h1 className="motto">Don’t miss the gaming fever!</h1>
-					<p>Download SWOO on Android  and iOS</p>
-					<div>
-						<a className="button1" href="#">Download Swoo</a>
+					<div className="text">
+						<p>Download SWOO on Android  and iOS</p>
+						<a className="button1" href="https://s3.ap-southeast-1.amazonaws.com/swoo-app-releases/android/665/release/7.1.0_production_pro_release_build_app-pro-release.apk">Download Swoo</a>
 					</div>
 				</div>
 				<div class="emptyspace">
 					<div class="button2">Have fun together</div>
 				</div>
-				<a className="downloadswoobottom" href="#">
+				<a className="downloadswoobottom" href="https://s3.ap-southeast-1.amazonaws.com/swoo-app-releases/android/665/release/7.1.0_production_pro_release_build_app-pro-release.apk">
             	<Download/> Download Swoo
  				</a>
 				<div className="purplefooter"></div>
