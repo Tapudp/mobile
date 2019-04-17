@@ -34,9 +34,9 @@ export default class BannerComponent extends Component{
             <Download/> Download Swoo
           </a>
           <br/>
-          <a className="watchdemo" href="#" target="_blank">
+          {/* <a className="watchdemo" href="#" target="_blank">
             <FillPlay/> Watch Demo
-          </a>
+          </a> */}
           <div class="stats">
             <p className="digits">
               10M+

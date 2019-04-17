@@ -14,7 +14,7 @@ export default class FunComponent extends Component{
 		return(
 			<div>
 				<div class="tictac">
-					<h1 className="motto">Don’t miss the gaming ferver!</h1>
+					<h1 className="motto">Don’t miss the gaming fever!</h1>
 					<p>Download SWOO on Android  and iOS</p>
 					<div>
 						<a className="button1" href="#">Download Swoo</a>
@@ -23,9 +23,10 @@ export default class FunComponent extends Component{
 				<div class="emptyspace">
 					<div class="button2">Have fun together</div>
 				</div>
-				<a className="downloadswoo" href="#">
+				<a className="downloadswoobottom" href="#">
             	<Download/> Download Swoo
  				</a>
+				<div className="purplefooter"></div>
 			</div>
 		)
 	}

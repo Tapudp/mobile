@@ -6,11 +6,20 @@ import Carousel from 'nuka-carousel';
 
 import {ReactComponent as Gamepad} from '../../assets/group-8-copy.svg';
 import {ReactComponent as Group4} from '../../assets/Mobile BG.svg';
-import {ReactComponent as Group27} from '../../assets/Group 27.svg';
-
-
-
-
+import {ReactComponent as AquaTheif} from '../../assets/Games/Aquatheif.svg';
+import {ReactComponent as CricketGunda} from '../../assets/Games/CricketGunda.svg';
+import {ReactComponent as FallingThrough} from '../../assets/Games/Fallingthrough.svg';
+import {ReactComponent as JuicyDash} from '../../assets/Games/Juicydash.svg';
+import {ReactComponent as MelonPinch} from '../../assets/Games/MelonPinch.svg';
+import {ReactComponent as PiratesPillage} from '../../assets/Games/Piratespillage.svg';
+import {ReactComponent as QuackHunt} from '../../assets/Games/QuackHunt.svg';
+import {ReactComponent as Rafting} from '../../assets/Games/Rafting.svg';
+import {ReactComponent as RocketMan} from '../../assets/Games/RocketMan.svg';
+import {ReactComponent as StickyGoo} from '../../assets/Games/StickyGoo.svg';
+import {ReactComponent as TerraInfirma} from '../../assets/Games/Terrainfirma.svg';
+import {ReactComponent as TicTacToe} from '../../assets/Games/TicTacToe.svg';
+import {ReactComponent as TimeWarp} from '../../assets/Games/TimeWarp.svg';
+import {ReactComponent as ZoopinBall} from '../../assets/Games/Zoopinball.svg';
 
 export default class DiscoverComponent extends Component{
 	constructor(props){
@@ -31,14 +40,26 @@ export default class DiscoverComponent extends Component{
 				
 				<div className="carousel2">
 					<Carousel
-					cellSpacing={5}
+					speed={500}
+					cellSpacing={1}
 					dragging={true}
-					slidesToShow={1.5}
+					slidesToShow={1.3}
 					withoutControls={true}
 					>
-							<img src="../../assets/group.jpg"/>
-							<Group4/>
-							<Group27/>
+						<AquaTheif/>
+						<CricketGunda/>
+						<FallingThrough/>
+						<JuicyDash/>
+						<MelonPinch/>
+						<PiratesPillage/>
+						<QuackHunt/>
+						<Rafting/>
+						<RocketMan/>
+						<StickyGoo/>
+						<TerraInfirma/>
+						<TicTacToe/>
+						<TimeWarp/>
+						<ZoopinBall/>
 					</Carousel>
 				</div>
 			</div>

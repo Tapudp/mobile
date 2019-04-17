@@ -4,7 +4,8 @@
 	display: flex;
 	flex-direction: column;
 	background-image: url('../../assets/group-4.png');
-	background-size: cover;
+  background-size: cover;
+  background-position: center;
 }
 
 .motto{
@@ -53,13 +54,15 @@ p{
 
 .emptyspace{
 	background-image: url('../../assets/group-22.svg');
-	background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 	display: flex;
-	flex-direction: row;
-	margin: 3em 1em;
-	height: 200px;
+  flex-direction: row;
+  /* padding-top: em; */
+  margin: 5em 5em;
 	justify-content: center;
-	align-items: center;
+  align-items: center;
 }
 
 .button2{
@@ -69,7 +72,28 @@ p{
   font-stretch: normal;
   line-height: 2.9;
   letter-spacing: normal;
-  text-align: center;
+  text-align: end;
   color: #ff6692;
-  padding: 2em 2em;
+  margin: 5em 5em;
+}
+
+.downloadswoobottom{
+  all: unset;
+  justify-content: space-between;
+  padding: 1em;
+  margin: 5em 5em;
+  justify-self: center;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  box-shadow: 0 4px 12px 0 rgba(255, 102, 146, 0.4);
+  background-image: linear-gradient(to left, #fdb996, #ff6080);
+  border-radius: 32.1px;
+}
+
+.purplefooter{
+  display: flex;
+  flex-direction: row;
+  background-color: #745eff;
+  margin: 5em 5em;
 }

@@ -20,35 +20,44 @@ export default class TwoCarouselComponent extends Component{
 	render() {
 		return(
 			<div className="container">
-				<Carousel
-					cellSpacing={5}
-					dragging={true}
-					slidesToShow={1}
-					withoutControls={false}
-					renderCenterLeftControls={({previousSlide}) => (
-						<PathBack onClick={previousSlide}/>
-					)}
-					renderCenterRightControls={({nextSlide}) => (
-						<PathForward onClick={nextSlide} />
-					)}
-				>
-					<Group26/>
+		
+				<div className="carousel1">
+					<Carousel
+						cellSpacing={1}
+						dragging={true}
+						slidesToShow={1}
+						withoutControls={false}
+						renderCenterLeftControls={({previousSlide}) => (
+							<PathBack onClick={previousSlide}/>
+							)}
+							renderCenterRightControls={({nextSlide}) => (
+								<PathForward onClick={nextSlide} />
+								)}
+						renderBottomCenterControls={false}
+						>
+						<Group26/>
 				</Carousel>
+				</div>
 
 				<div className="commentshead">
 					<div className="oval"></div>
 					<p className="folks">What folks are saying</p>
 					<div className="commentsection">
 						<Carousel
-							cellSpacing={5}
+							cellSpacing={1}
 							dragging={true}
 							slidesToShow={1}
 							withoutControls={false}
+							renderCenterLeftControls={false}
+							renderCenterRightControls={false}							
 						>
+							<Comment/>
+							<Comment/>
 							<Comment/>
 						</Carousel>
 					</div>
 				</div>
+
 			</div>
 		)
 	}
