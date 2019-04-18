@@ -23,7 +23,7 @@ export default class TwoCarouselComponent extends Component{
 		
 				<div className="carousel1">
 					<Carousel
-						cellSpacing={1}
+						cellSpacing={3}
 						dragging={true}
 						slidesToShow={1}
 						withoutControls={false}
@@ -39,7 +39,7 @@ export default class TwoCarouselComponent extends Component{
 				</Carousel>
 				</div>
 
-				<div className="commentshead">
+				{/* <div className="commentshead">
 					<div className="oval"></div>
 					<p className="folks">What folks are saying</p>
 					<div className="commentsection">
@@ -56,7 +56,7 @@ export default class TwoCarouselComponent extends Component{
 							<Comment/>
 						</Carousel>
 					</div>
-				</div>
+				</div> */}
 
 			</div>
 		)

@@ -25,19 +25,32 @@ export default class BannerComponent extends Component{
         </div>
         <div className="phonecontainer">
           {/* <WhiteBackground className="whitebackground" /> */}
+          <div className="phonecol">
+              this is phone column
+          </div>
+          <div>
           <SwooLogo className="swoologo"/>
-          <p className="content">Play. <br/>Earn.<br/> Enjoy.</p>
-          <p className="dream">
-            A world of skills where you achieve your dreams.
-          </p>
-          <a className="downloadswoo" href="https://s3.ap-southeast-1.amazonaws.com/swoo-app-releases/android/665/release/7.1.0_production_pro_release_build_app-pro-release.apk">
-            <Download/> Download Swoo
-          </a>
+          <div className="playpara">
+            <p className="content">Play. <br/>Earn.<br/> Enjoy.</p>
+          </div>
+          <div className="playpara">
+            <p className="dream">
+              A world of skills where you achieve your dreams.
+            </p>
+          </div>
+          <div className="downloadcontainer">
+            <a className="downloadswoo" href="https://s3.ap-southeast-1.amazonaws.com/swoo-app-releases/android/665/release/7.1.0_production_pro_release_build_app-pro-release.apk">
+              <Download/> Download Swoo
+            </a>
+          </div>
+          </div>
+          
           <br/>
           {/* <a className="watchdemo" href="#" target="_blank">
             <FillPlay/> Watch Demo
           </a> */}
           <div class="stats">
+          {/* <img className="statsbackground" src="../../assets/group-33.svg"/> */}
             <p className="digits">
               10M+
               <br />
@@ -59,19 +72,25 @@ export default class BannerComponent extends Component{
         <div className="howtoplaycontainer">
           <h2><div className="star"></div>How to play<div className="star"></div></h2>
           <div class="howto">
-            <p class="howtoitem1">
-              Install
-              <br />
-              App
-            </p>
-            <p class="howtoitem2">
-              Register
-              <br /> for game
-            </p>
-            <p class="howtoitem3">
-              Win
-              <br /> & earn
-            </p>
+            {/* <div className="firstitem"> */}
+              <p class="howtoitem1">
+                Install
+                <br />
+                App
+              </p>
+            {/* </div> */}
+            {/* <div className="seconditem"> */}
+              <p class="howtoitem2">
+                Register
+                <br /> for game
+              </p>
+            {/* </div> */}
+            {/* <div className="thirditem"> */}
+              <p class="howtoitem3">
+                Win
+                <br /> & earn
+              </p>
+            {/* </div> */}
           </div>
         </div>
       </div>

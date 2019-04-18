@@ -1,6 +1,8 @@
 .firstscreencontainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .purpleheader {
   width: 100vw;
@@ -29,13 +31,24 @@
 }
 
 .phonecontainer {
-  width: auto;
+  /* width: auto; */
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   background-image: url("../../assets/group-14.svg");
   background-size:cover;
   background-position: bottom;
   background-repeat: no-repeat;
+}
+
+.phonecol{
+  margin: 10% 5%;
+  flex-basis: 50%;
+  background: url("../../assets/Mobile BG.svg");
+  background-size: cover;
+  background-repeat: none;
 }
 
 .whitebackground {
@@ -57,24 +70,40 @@
   line-height: normal;
 }
 
-.dream {
+.dreampara {
+  margin-top: 50px;
+}
+
+.playpara{
+  margin-top: 50px;
+}
+
+.dream{
+  font-size: 12px;
   font-weight: 500;
-  line-break: auto;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+
+.downloadcontainer{
+  margin-top: 50px;
 }
 
 .downloadswoo{
   all: unset;
   justify-content: space-between;
-  padding: 1em;
-  margin: 0 auto;
-  justify-self: center;
-  text-align: center;
+  /* padding: 1em; */
+  /* justify-self: center; */
+  /* text-align: center; */
   font-weight: bold;
   color: #ffffff;
   box-shadow: 0 4px 12px 0 rgba(255, 102, 146, 0.4);
   background-image: linear-gradient(to left, #fdb996, #ff6080);
   border-radius: 32.1px;
-  width: 40%;
+  /* width: 40%; */
 }
 
 .watchdemo{
@@ -92,12 +121,22 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  box-shadow: inset 0 1px 6px 0 #ff6692;
-  background-image: linear-gradient(to left, #fdb996, #ff6080);
+  background: url('../../assets/group-33.svg');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  /* box-shadow: inset 0 1px 6px 0 #ff6692; */
+  /* background-image: linear-gradient(to left, #fdb996, #ff6080); */
 }
+/* 
+.statsbackground{
+  width: 100%;
+  height: 55%;
+} */
 
 .digits{
-  color: #ffffff;
+  margin-top: 50px;
+  color: #000000;
   font-size: 22px;
   font-weight: 600;
   letter-spacing: 1.4px;
@@ -113,60 +152,104 @@
 .howtoplaycontainer{
   background-color: #745eff;
   color: #ffffff;
+  width: 100%;
 }
 
 .howtoplaycontainer h2{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   font-size: 18px;
 }
 
-/* .star{
+.star{
   color: #ffcb51;
   width: 16px;
   height: 15px;
-} */
+  background: url('../../assets/fill-star.svg');
+  background-repeat: no-repeat;
+  margin: 0em 1%;
+}
 
 .howto {
   display: flex;
-  justify-content: space-around;
+  /* flex-grow:1; */
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   margin: auto;
 }
 
-.howtoitem1 {
-  align-items: center;
-  justify-content: center;
-  align-self: center;
-  justify-self: center;
-  width: 112px;
-  height: 60px;
+/* .howto:nth-of-type(1){
+  flex-grow: 1;
+}
+
+.howto:nth-of-type(2){
+  flex-grow: 1;
+}
+
+.howto:nth-of-type(3){
+  flex-grow: 1;
+} */
+
+.firstitem{
   background-image: url('../../assets/path.svg');
+  background-repeat: no-repeat;
+  /* width: 40%; */
+  /* word-wrap: break-word; */
+  /* vertical-align: top; */
+  /* overflow: hidden; */
+}
+
+.howtoitem1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url('../../assets/path.svg');
+  background-repeat: no-repeat;
+  width: 10em;
+  height: 60px;
+  /* margin: 10em 10em; */
   font-size: 12px;
   font-weight: 600;
+}
+
+.seconditem{
+  background-image: url('../../assets/path2.svg');
+  background-repeat: no-repeat;
 }
 
 .howtoitem2{
-  align-items: center;
+  display: flex;
   justify-content: center;
-  align-self: center;
-  justify-self: center;
-  width: 112px;
+  flex-direction: column;
+  text-align: center;
+  width: 10em;
   height: 60px;
+  /* margin: 10em 10em; */
   background-image: url('../../assets/path2.svg');
+  background-repeat: no-repeat;
   font-size: 12px;
   font-weight: 600;
 }
 
-.howtoitem3{
-  align-items: center;
-  justify-content: center;
-  align-self: center;
-  justify-self: center;
-  width: 105px;
-  height: 60px;
+.thirditem{
   background-image: url('../../assets/path3.svg');
+  background-repeat: no-repeat;
+}
+
+.howtoitem3{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 10em; 
+  height: 60px;
+  /* margin: 10em 10em; */
+  background-image: url('../../assets/path3.svg');
+  background-repeat: no-repeat;
   font-size: 12px;
   font-weight: 600;
 }
